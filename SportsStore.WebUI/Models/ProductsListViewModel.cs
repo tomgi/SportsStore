@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using SportsStore.Domain.Entities;
 
 namespace SportsStore.WebUI.Models
@@ -10,5 +7,6 @@ namespace SportsStore.WebUI.Models
     {
         public IEnumerable<Product> Products { get; set; }
         public PagingInfo PagingInfo { get; set; }
+        public string CurrentCategory { get; set; }
     }
 }
